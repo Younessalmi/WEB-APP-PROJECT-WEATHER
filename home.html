@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <script src="https://kit.fontawesome.com/19e5770b89.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Weather</title>
+</head>
+<body>
+    <main>
+        <h1>THE WEATHER IS HERE...</h1>
+        <form id="search-flex">
+            <input type="text" id="search-bar" placeholder="Enter your city">
+            <button type="submit" id="search-btn"><i class="fas fa-search" id="search-icone"></i></button>
+        </form>
+
+        <div id="div1">
+            <h2 id="city">City</h2>
+            <div id="divimgweather">
+                <img src="" alt="" id="imgweather">
+            </div>
+            <div class="flex-parg">
+                <p id="temp" class="info"><i class="fas fa-temperature-low iconebig"></i> Temperature </p>
+                <p id="info-temp" class="data-css"></p>
+            </div>
+
+            <br>
+
+            <div class="flex-parg">
+                <p id="hum" class="info"><i class="fas fa-tint iconebig"></i> Humidity </p>
+                <p id="info-hum" class="data-css"></p>
+            </div>
+
+            <br>
+
+            <div class="flex-parg">
+                <p id="wind" class="info"><i class="fas fa-wind iconebig"></i> Wind </p>
+                <p id="info-wind" class="data-css"></p>
+            </div>
+
+            <br>
+
+            <div class="flex-parg">
+                <p id="desc" class="info"><i class="fas fa-info iconebig"></i> Description </p>
+                <p id="info-desc" class="data-css"></p>
+            </div>
+
+            <br>
+
+            <div class="flex-parg">
+                <p id="press" class="info"><i class="fas fa-compress-alt iconebig"></i> Pressure</p>
+                <p id="info-press" class="data-css"></p>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
